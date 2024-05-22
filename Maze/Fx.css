@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.custom-button {
+    -fx-font-size: 15px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-pref-width: 120;
+    -fx-pref-height: 30;
+    -fx-padding: 5 10 5 10; 
+}
+.custom-button:hover {
+    -fx-background-color: #4CAF50;
+    -fx-cursor: hand;
+}
+
+.vertical-bar {
+    -fx-fill: linear-gradient(to bottom, black, #2f2f30); 
+    -fx-width: 10;
+    -fx-height: 100%; 
+    -fx-effect: dropshadow(gaussian, rgba(37, 37, 37, 0.8), 10, 0, 0, 5);
+    
+}
+#backgroundImageView {
+    -fx-background-size: cover;
+    -fx-fit-width: 1%;
+    -fx-fit-height: 1%;
+}
+#loadingBar {
+    -fx-control-inner-background: green;
+    -fx-accent: green;
+}
+
+#logoImageView {
+    -fx-fit-width: 100px; /* Set the desired width */
+    -fx-fit-height: 100px; /* Set the desired height */
+}
+
+
+.heading {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 18px;
+    -fx-fill: white;
+    /* Add more styling as needed */
+}
+
+.progress-bar .bar {
+    -fx-background-color:  linear-gradient(to left,  #d6f8d6, #7bd37b);
+}
+
+.loading{
+    -fx-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+
+.custom-maze-cell {
+    -fx-stroke: #000000; /* Border color for cells */
+}
+
+/* Apply the styling to the maze cells */
+.maze-cell.black {
+    /* -fx-fill: black; */
+    -fx-fill: linear-gradient(to bottom, #007ea7,#003459);
+}
+.maze-cell.black:hover{
+    -fx-fill: #007ea7;
+}
+
+.maze-cell.white {
+    -fx-fill: white;
+}
+.maze-cell.red{
+    -fx-fill: linear-gradient(to bottom, rgb(245, 100, 100),rgb(245, 31, 31));
+}
+
+.maze-cell.red:hover{
+    -fx-fill: rgb(245, 100, 100);
+}
+
+.maze-cell.yellow{
+    -fx-fill: linear-gradient(to bottom, yellow,orange);
+}
+
+.maze-cell.yellow:hover{
+    -fx-fill: rgb(250, 195, 93);
+}
+.maze-cell{
+    -fx-border-radius: 5px; /* Set the border radius */
+    -fx-background-radius: 5px; /* Set the background radius (same as border radius for consistency) */
+    -fx-stroke: #ffffff; /* Border color for cells */
+}
+.horizontal-bar{
+    -fx-fill: linear-gradient(to bottom, black, #404041);
+    
+}
+
+.text{
+    -fx-text-alignment: center;
+    -fx-translate-x: -50%;
+    -fx-fill: #fff;
+    -fx-font-size: 14px;
+}
+.text3{
+    -fx-text-alignment: center;
+    -fx-translate-x: -50%;
+    -fx-fill: orange;
+    -fx-font-size: 14px;
+}
+
+.green{
+    -fx-fill: linear-gradient(to bottom, rgb(129, 230, 129), rgb(52, 209, 52));
+}
+
+.logoImageView{
+    -fx-cursor: hand;
+}
+
